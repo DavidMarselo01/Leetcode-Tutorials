@@ -29,3 +29,9 @@ def counter_method(s):
     return Counter(s)
 
 
+print(classic_dict_check(s))
+print(dicti_get_method(s))
+print(default_dict(s))
+print(counter_method(s))
+
+print(classic_dict_check(s) == dicti_get_method(s) == default_dict(s) == counter_method(s))
